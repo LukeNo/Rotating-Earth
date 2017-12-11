@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url("https://www-tc.pbs.org/wgbh/nova/next/wp-content/uploads/2017/06/quantum-entanglement_2048x1152.jpg");
+}
+
+.earth {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    background-image: url(https://1.bp.blogspot.com/-UUXaK5GCj-k/UcsKJRMgkVI/AAAAAAAACfM/sePP_H08JTQ/s1600/1.jpg);
+    border-radius: 50%;
+    background-size: cover;
+    -webkit-box-shadow: -20px -20px 50px 2px #000 inset, 0 0 20px 2px #000;
+    box-shadow: -20px -20px 50px 2px #000 inset, 0 0 20px 2px #000;
+    -webkit-animation: earth 30s linear infinite;
+    animation: earth 30s linear infinite;
+}
+
+@-webkit-keyframes earth {
+    100%{background-position:100%;}
+}
+
+@keyframes earth {
+    100%{background-position:100%;}
+}
